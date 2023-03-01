@@ -111,7 +111,6 @@ defmodule PhoenixSwagger.Plug.SwaggerUI do
     const configObject = {
       url: swagger_url.href,
       dom_id: '#swagger-ui',
-      validatorUrl : null,
       deepLinking: true,
       tagsSorter: (a, b) => {
         return a.localeCompare(b);
