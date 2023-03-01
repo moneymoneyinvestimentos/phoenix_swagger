@@ -110,6 +110,7 @@ defmodule PhoenixSwagger.Plug.SwaggerUI do
 
     const configObject = {
       url: swagger_url.href,
+      validatorUrl: null,
       dom_id: '#swagger-ui',
       deepLinking: true,
       tagsSorter: (a, b) => {
