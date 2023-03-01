@@ -133,6 +133,7 @@ defmodule PhoenixSwagger.Plug.SwaggerUI do
         SwaggerUIBundle.plugins.DownloadUrl
       ],
       layout: "StandaloneLayout",
+      validatorUrl : null,
     }
   
     <%= for {key, value} <- config_object do %>
